@@ -29,8 +29,6 @@ The Apache Airflow DAG consists of 12 different tasks with 6 custom operators.
  ![DAG with task dependencies](https://github.com/ivsk/CrimeWeatherPipeline/blob/main/airflow_dag.jpg?raw=true)
 
 
-<div style="text-align: center;">Chicago crime and weather pipeline DAG with task dependencies</div>
-
 The pipeline currently runs on a monthly basis, with the first run backfilling until the first month of the crime dataset (2001-12). Too frequent update of the pipeline would potentially lead to the unneccessary run of the pipeline as the crime data source by the City of Chicago is not updated on a daily basis.
 
 ## Data model and dictionary 
