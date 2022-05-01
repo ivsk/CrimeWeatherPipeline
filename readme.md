@@ -67,8 +67,8 @@ The fact table is an aggregate table that contains the following:
 |----------------|:-------------------------:|---------------------------------------------------------------------:|
 | block          | `VARCHAR(50) primary key` |                           The unique location of the crime blockwise |
 | community_area |          `int4`           | The community area associated with the block where the crime oocured |
-| district       | `VARCHAR(50) primary key` |              The district where the location of the crime belongs to |
-| ward           | `VARCHAR(50) primary key` |                  The ward where the location of the crime belongs to |
+| district       |      `VARCHAR(50)`        |             The district where the location of the crime belongs to  |
+| ward           |       `VARCHAR(50)`       |                  The ward where the location of the crime belongs to |
 
 ##### Arrest
 | Column |   Type    |                   Description |
