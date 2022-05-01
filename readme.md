@@ -26,7 +26,7 @@ The Apache Airflow DAG consists of 12 different tasks with 6 custom operators.
  - The fourth and fifth operator loads the data into fact and dimensional tables, respectively.
  - Finally, the sixth operator is responsible for performing a data quality check, which can be passed if there are no NULL values in tables with primary keys, and if there are specifically two distinct values in boolean dimensional tables (crime_arrest, crime_domestic).
 
- ![DAG with task dependencies](https://i.ibb.co/QvGrjT1/airflow-dag.jpg)
+ ![DAG with task dependencies](https://github.com/ivsk/CrimeWeatherPipeline/blob/main/airflow_dag.jpg?raw=true)
 
 
 <center>Chicago crime and weather pipeline DAG with task dependencies</center>
